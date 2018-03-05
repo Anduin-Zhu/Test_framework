@@ -1836,3 +1836,24 @@ JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=se&jso
 Unable to read VR Path Registry from C:\Users\zhuyonggang\AppData\Local\openvr\openvrpaths.vrpath
 [Child 9348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Child 9348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520231466607	geckodriver	INFO	geckodriver 0.18.0
+1520231466624	geckodriver	INFO	Listening on 127.0.0.1:46294
+1520231469779	geckodriver::marionette	INFO	Starting browser D:\software\Firefox\firefox.exe with args ["-marionette"]
+1520231476135	Marionette	INFO	Enabled via --marionette
+1520231482461	Marionette	INFO	Listening on port 46308
+1520231482908	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\zhuyonggang\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=se&json=1&p=3&sid=1423_25548_21089_22159&req=2&csor=2&pwd=s&cb=jQuery110205858766642779296_1520231484134&_=1520231484136, line 1: TypeError: jQuery110205858766642779296_1520231484134 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=s&json=1&p=3&sid=1423_25548_21089_22159&req=2&csor=1&cb=jQuery110205858766642779296_1520231484134&_=1520231484135, line 1: TypeError: jQuery110205858766642779296_1520231484134 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1423_25548_21089_22159&req=2&csor=6&pwd=selen&cb=jQuery110205858766642779296_1520231484134&_=1520231484140, line 1: TypeError: jQuery110205858766642779296_1520231484134 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sel&json=1&p=3&sid=1423_25548_21089_22159&req=2&csor=3&pwd=se&cb=jQuery110205858766642779296_1520231484134&_=1520231484137, line 1: TypeError: jQuery110205858766642779296_1520231484134 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=1423_25548_21089_22159&req=2&csor=4&pwd=sel&cb=jQuery110205858766642779296_1520231484134&_=1520231484138, line 1: TypeError: jQuery110205858766642779296_1520231484134 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=1423_25548_21089_22159&req=2&csor=5&pwd=sele&cb=jQuery110205858766642779296_1520231484134&_=1520231484139, line 1: TypeError: jQuery110205858766642779296_1520231484134 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=1423_25548_21089_22159&req=2&csor=7&pwd=seleni&cb=jQuery110205858766642779296_1520231484134&_=1520231484141, line 1: TypeError: jQuery110205858766642779296_1520231484134 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium%20%E7%81%B0&json=1&p=3&sid=1423_25548_21089_22159&req=2&csor=10&pwd=selenium%20&cb=jQuery110205858766642779296_1520231484134&_=1520231484144, line 1: TypeError: jQuery110205858766642779296_1520231484134 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium%20%E7%81%B0%E8%93%9D&json=1&p=3&sid=1423_25548_21089_22159&req=2&csor=11&pwd=selenium%20%E7%81%B0&cb=jQuery110205858766642779296_1520231484134&_=1520231484145, line 1: TypeError: jQuery110205858766642779296_1520231484134 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=1423_25548_21089_22159&req=2&csor=8&pwd=seleniu&cb=jQuery110205858766642779296_1520231484134&_=1520231484142, line 1: TypeError: jQuery110205858766642779296_1520231484134 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium%20&json=1&p=3&sid=1423_25548_21089_22159&req=2&csor=9&pwd=selenium&cb=jQuery110205858766642779296_1520231484134&_=1520231484143, line 1: TypeError: jQuery110205858766642779296_1520231484134 is not a function
+Unable to read VR Path Registry from C:\Users\zhuyonggang\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
