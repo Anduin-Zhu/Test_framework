@@ -71,14 +71,14 @@ __version__ = "0.9.1"
 """
 Change History
 Version 0.9.1
-* 用Echarts添加执行情况统计图 (灰蓝)
+* 用Echarts添加执行情况统计图 (Anduin)
 
 Version 0.9.0
-* 改成Python 3.x (灰蓝)
+* 改成Python 3.x (Anduin)
 
 Version 0.8.3
-* 使用 Bootstrap稍加美化 (灰蓝)
-* 改为中文 (灰蓝)
+* 使用 Bootstrap稍加美化 (Anduin)
+* 改为中文 (Anduin)
 
 Version 0.8.2
 * Show output inline instead of popup window (Viorel Lupu).

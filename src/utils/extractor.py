@@ -43,6 +43,6 @@ if __name__ == '__main__':
     # "desc": "OK"}
 
     j = JMESPathExtractor()
-j_1 = j.extract(query='data.forecast[1].date',body=res.text)
-j_2 = j.extract(query='data.ganmao',body=res.text)
-print(j_1,j_2)
+    j_1 = j.extract(query='data.forecast[1].date',body=res.text)
+    j_2 = j.extract(query='data.ganmao',body=res.text)
+    print(j_1,j_2)
