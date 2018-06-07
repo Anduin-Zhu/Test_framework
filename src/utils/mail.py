@@ -4,6 +4,7 @@ __author__ = '朱永刚'
 import re
 import os
 import smtplib
+from config import Config
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.header import Header
@@ -12,7 +13,8 @@ from socket import gaierror,error
 from utils.config import REPORT_PATH
 
 class Email:
-    def __init__(self, server, sender, password, receiver, title, message=None, path=None):
+
+    def __init__(self,  file_path=None):
         """初始化Email
 
         :param title: 邮件标题，必填。
@@ -23,16 +25,17 @@ class Email:
         :param password: 发件人密码，必填。
         :param receiver: 收件人，多收件人用“；”隔开，必填。
         """
-        self.title = title
-        self.message = message
-        self.files = path
+        e = Config().get('Email')
+        self.title = e.get('title')
+        self.message = e.get('message')
+        self.files = file_path
 
         self.msg = MIMEMultipart('related')
 
-        self.server = server
-        self.sender = sender
-        self.receiver = receiver
-        self.password = password
+        self.server = e.get('server')
+        self.sender = e.get('sender')
+        self.receiver = e.get('receiver')
+        self.password = e.get('password')
 
     def _attach_file(self, att_file):
         """将单个文件添加到附件列表中"""
