@@ -78,7 +78,7 @@ class TestBaiDu(unittest.TestCase):
             #print(link.text)
             logger.info(link.text)
 '''
-if __name__ == '__main__':
+if __name__ == '__main__':#Alt + Shift +F10 以文件模式执行会出报告
     #unittest.main(verbosity=2)
     # 报告格式
     now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
@@ -86,4 +86,13 @@ if __name__ == '__main__':
     f = open(report, 'wb')
     runner = HTMLTestRunner(f, verbosity=2, title=u'百度测试报告', description=u'用例执行情况')
     runner.run(TestBaiDu('test_search'))
-    Email().sentreport()
+    #第一种邮件发送方法
+    e = Email(title='百度测试报告',
+              message='这是今天的测试报告，请查收。',
+              server='smtp.qq.com',
+              sender='************@qq.com',
+              password='授权码',
+              receiver='********@qq.com',
+              path=report)
+    e.send()
+    #Email().sentreport()#这是第二种发送邮件方法

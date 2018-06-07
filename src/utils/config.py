@@ -1,9 +1,7 @@
 # -*- coding:utf-8 -*-
 __author__ = '朱永刚'
 
-'''
-读取配置。
-'''
+
 import os
 from utils.file_reader import YamlReader
 
@@ -16,6 +14,9 @@ REPORT_PATH = os.path.join(BASE_PATH,'report')
 print(LOG_PATH)
 
 class Config:
+    '''
+    读取配置。
+    '''
     def __init__(self,config=CONFIG_FILE):
         self.config = YamlReader(config).data
 

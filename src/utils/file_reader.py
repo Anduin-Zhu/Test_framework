@@ -6,6 +6,9 @@ import os
 from xlrd import open_workbook
 
 class YamlReader:
+    """
+    读取配置文件
+    """
     def __init__(self,yamlf):
         if os.path.exists(yamlf):
             self.yamlf = yamlf

@@ -10,7 +10,7 @@ from email.header import Header
 from utils.log import logger
 from socket import gaierror,error
 from utils.config import REPORT_PATH
-'''
+
 class Email:
     def __init__(self, server, sender, password, receiver, title, message=None, path=None):
         """初始化Email
@@ -62,7 +62,7 @@ class Email:
 
         # 连接服务器并发送
         try:
-            smtp_server = smtplib.SMTP(self.server)  # 连接sever
+            smtp_server = smtplib.SMTP_SSL(self.server,465)  # 连接sever
         except (gaierror and error) as e:
             logger.exception('发送邮件失败,无法连接到SMTP服务器，检查网络以及SMTP服务器. %s', e)
         else:
@@ -76,10 +76,12 @@ class Email:
                 smtp_server.quit()  # 断开连接
                 logger.info('发送邮件"{0}"成功! 收件人：{1}。如果没有收到邮件，请检查垃圾箱，'
                             '同时检查收件人地址是否正确'.format(self.title, self.receiver))
-'''
 
+"""
 class Email:
-
+    '''
+    第二种邮件发送方法
+    '''
     def sentemail(self,report_file):
         mail_from = '*********@***.com'  # 发件邮箱
         mail_to = '**********@***.com'  # 收件邮箱
@@ -114,3 +116,4 @@ class Email:
         file = os.path.join(report_dir, lists[-2])
         # 调用发邮件方法
         self.sentemail(file)
+"""
