@@ -168,3 +168,105 @@
 <!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus=autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn" autofocus></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=https://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');
                 </script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
 
+2018-03-06 14:13:15,021 - framework - DEBUG - GET http://wthrcdn.etouch.cn/weather_mini?citykey=101010100
+2018-03-06 14:13:15,074 - framework - DEBUG - 请求成功:<Response [200]>
+{"data":{"yesterday":{"date":"5日星期一","high":"高温 8℃","fx":"南风","low":"低温 -4℃","fl":"<![CDATA[<3级]]>","type":"多云"},"city":"北京","aqi":"86","forecast":[{"date":"6日星期二","high":"高温 6℃","fengli":"<![CDATA[3-4级]]>","low":"低温 -3℃","fengxiang":"东南风","type":"多云"},{"date":"7日星期三","high":"高温 6℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"北风","type":"阴"},{"date":"8日星期四","high":"高温 8℃","fengli":"<![CDATA[<3级]]>","low":"低温 -3℃","fengxiang":"南风","type":"晴"},{"date":"9日星期五","high":"高温 10℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"南风","type":"多云"},{"date":"10日星期六","high":"高温 12℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"东南风","type":"晴"}],"ganmao":"天气较凉，较易发生感冒，请适当增加衣服。体质较弱的朋友尤其应该注意防护。","wendu":"3"},"status":1000,"desc":"OK"}
+2018-03-06 14:13:57,502 - framework - DEBUG - GET http://wthrcdn.etouch.cn/weather_mini?citykey=101010100
+2018-03-06 14:13:57,503 - framework - DEBUG - 请求成功:<Response [200]>
+{"data":{"yesterday":{"date":"5日星期一","high":"高温 8℃","fx":"南风","low":"低温 -4℃","fl":"<![CDATA[<3级]]>","type":"多云"},"city":"北京","aqi":"86","forecast":[{"date":"6日星期二","high":"高温 6℃","fengli":"<![CDATA[3-4级]]>","low":"低温 -3℃","fengxiang":"东南风","type":"多云"},{"date":"7日星期三","high":"高温 6℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"北风","type":"阴"},{"date":"8日星期四","high":"高温 8℃","fengli":"<![CDATA[<3级]]>","low":"低温 -3℃","fengxiang":"南风","type":"晴"},{"date":"9日星期五","high":"高温 10℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"南风","type":"多云"},{"date":"10日星期六","high":"高温 12℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"东南风","type":"晴"}],"ganmao":"天气较凉，较易发生感冒，请适当增加衣服。体质较弱的朋友尤其应该注意防护。","wendu":"3"},"status":1000,"desc":"OK"}
+2018-03-06 14:16:37,744 - framework - DEBUG - GET http://wthrcdn.etouch.cn/weather_mini?citykey=101010100
+2018-03-06 14:16:37,746 - framework - DEBUG - 请求成功:<Response [200]>
+{"data":{"yesterday":{"date":"5日星期一","high":"高温 8℃","fx":"南风","low":"低温 -4℃","fl":"<![CDATA[<3级]]>","type":"多云"},"city":"北京","aqi":"86","forecast":[{"date":"6日星期二","high":"高温 6℃","fengli":"<![CDATA[3-4级]]>","low":"低温 -3℃","fengxiang":"东南风","type":"多云"},{"date":"7日星期三","high":"高温 6℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"北风","type":"阴"},{"date":"8日星期四","high":"高温 8℃","fengli":"<![CDATA[<3级]]>","low":"低温 -3℃","fengxiang":"南风","type":"晴"},{"date":"9日星期五","high":"高温 10℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"南风","type":"多云"},{"date":"10日星期六","high":"高温 12℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"东南风","type":"晴"}],"ganmao":"天气较凉，较易发生感冒，请适当增加衣服。体质较弱的朋友尤其应该注意防护。","wendu":"3"},"status":1000,"desc":"OK"}
+2018-03-06 14:19:05,835 - framework - DEBUG - GET http://wthrcdn.etouch.cn/weather_mini?citykey=101010100
+2018-03-06 14:19:05,837 - framework - DEBUG - 请求成功:<Response [200]>
+{"data":{"yesterday":{"date":"5日星期一","high":"高温 8℃","fx":"南风","low":"低温 -4℃","fl":"<![CDATA[<3级]]>","type":"多云"},"city":"北京","aqi":"86","forecast":[{"date":"6日星期二","high":"高温 6℃","fengli":"<![CDATA[3-4级]]>","low":"低温 -3℃","fengxiang":"东南风","type":"多云"},{"date":"7日星期三","high":"高温 6℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"北风","type":"阴"},{"date":"8日星期四","high":"高温 8℃","fengli":"<![CDATA[<3级]]>","low":"低温 -3℃","fengxiang":"南风","type":"晴"},{"date":"9日星期五","high":"高温 10℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"南风","type":"多云"},{"date":"10日星期六","high":"高温 12℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"东南风","type":"晴"}],"ganmao":"天气较凉，较易发生感冒，请适当增加衣服。体质较弱的朋友尤其应该注意防护。","wendu":"3"},"status":1000,"desc":"OK"}
+2018-03-06 14:24:38,486 - framework - DEBUG - GET http://wthrcdn.etouch.cn/weather_mini?citykey=101010100
+2018-03-06 14:24:38,488 - framework - DEBUG - 请求成功:<Response [200]>
+{"data":{"yesterday":{"date":"5日星期一","high":"高温 8℃","fx":"南风","low":"低温 -4℃","fl":"<![CDATA[<3级]]>","type":"多云"},"city":"北京","aqi":"86","forecast":[{"date":"6日星期二","high":"高温 6℃","fengli":"<![CDATA[3-4级]]>","low":"低温 -3℃","fengxiang":"东南风","type":"多云"},{"date":"7日星期三","high":"高温 6℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"北风","type":"阴"},{"date":"8日星期四","high":"高温 8℃","fengli":"<![CDATA[<3级]]>","low":"低温 -3℃","fengxiang":"南风","type":"晴"},{"date":"9日星期五","high":"高温 10℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"南风","type":"多云"},{"date":"10日星期六","high":"高温 12℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"东南风","type":"晴"}],"ganmao":"天气较凉，较易发生感冒，请适当增加衣服。体质较弱的朋友尤其应该注意防护。","wendu":"3"},"status":1000,"desc":"OK"}
+2018-03-06 14:25:16,016 - framework - DEBUG - GET http://wthrcdn.etouch.cn/weather_mini?citykey=101010100
+2018-03-06 14:25:16,018 - framework - DEBUG - 请求成功:<Response [200]>
+{"data":{"yesterday":{"date":"5日星期一","high":"高温 8℃","fx":"南风","low":"低温 -4℃","fl":"<![CDATA[<3级]]>","type":"多云"},"city":"北京","aqi":"86","forecast":[{"date":"6日星期二","high":"高温 6℃","fengli":"<![CDATA[3-4级]]>","low":"低温 -3℃","fengxiang":"东南风","type":"多云"},{"date":"7日星期三","high":"高温 6℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"北风","type":"阴"},{"date":"8日星期四","high":"高温 8℃","fengli":"<![CDATA[<3级]]>","low":"低温 -3℃","fengxiang":"南风","type":"晴"},{"date":"9日星期五","high":"高温 10℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"南风","type":"多云"},{"date":"10日星期六","high":"高温 12℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"东南风","type":"晴"}],"ganmao":"天气较凉，较易发生感冒，请适当增加衣服。体质较弱的朋友尤其应该注意防护。","wendu":"3"},"status":1000,"desc":"OK"}
+2018-03-06 14:26:22,882 - framework - DEBUG - GET http://wthrcdn.etouch.cn/weather_mini?citykey=101010100
+2018-03-06 14:26:22,883 - framework - DEBUG - 请求成功:<Response [200]>
+{"data":{"yesterday":{"date":"5日星期一","high":"高温 8℃","fx":"南风","low":"低温 -4℃","fl":"<![CDATA[<3级]]>","type":"多云"},"city":"北京","aqi":"86","forecast":[{"date":"6日星期二","high":"高温 6℃","fengli":"<![CDATA[3-4级]]>","low":"低温 -3℃","fengxiang":"东南风","type":"多云"},{"date":"7日星期三","high":"高温 6℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"北风","type":"阴"},{"date":"8日星期四","high":"高温 8℃","fengli":"<![CDATA[<3级]]>","low":"低温 -3℃","fengxiang":"南风","type":"晴"},{"date":"9日星期五","high":"高温 10℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"南风","type":"多云"},{"date":"10日星期六","high":"高温 12℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"东南风","type":"晴"}],"ganmao":"天气较凉，较易发生感冒，请适当增加衣服。体质较弱的朋友尤其应该注意防护。","wendu":"3"},"status":1000,"desc":"OK"}
+2018-03-06 14:26:44,855 - framework - DEBUG - GET http://wthrcdn.etouch.cn/weather_mini?citykey=101010100
+2018-03-06 14:26:44,855 - framework - DEBUG - 请求成功:<Response [200]>
+{"data":{"yesterday":{"date":"5日星期一","high":"高温 8℃","fx":"南风","low":"低温 -4℃","fl":"<![CDATA[<3级]]>","type":"多云"},"city":"北京","aqi":"86","forecast":[{"date":"6日星期二","high":"高温 6℃","fengli":"<![CDATA[3-4级]]>","low":"低温 -3℃","fengxiang":"东南风","type":"多云"},{"date":"7日星期三","high":"高温 6℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"北风","type":"阴"},{"date":"8日星期四","high":"高温 8℃","fengli":"<![CDATA[<3级]]>","low":"低温 -3℃","fengxiang":"南风","type":"晴"},{"date":"9日星期五","high":"高温 10℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"南风","type":"多云"},{"date":"10日星期六","high":"高温 12℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"东南风","type":"晴"}],"ganmao":"天气较凉，较易发生感冒，请适当增加衣服。体质较弱的朋友尤其应该注意防护。","wendu":"3"},"status":1000,"desc":"OK"}
+2018-03-06 17:50:50,191 - framework - INFO - 灰蓝- CSDN博客
+2018-03-06 17:50:50,199 - framework - INFO - ...搭建一个既可以功能测试+又可以接口测试框架(灰蓝作..._CSDN博客
+2018-03-06 17:50:50,209 - framework - INFO - Python selenium —— 一定要会用selenium的等待,三种..._CSDN博客
+2018-03-06 17:50:50,218 - framework - INFO - ...—— 教你在Windows上搭建Python+Selenium环境 - 灰蓝 - 博客...
+2018-03-06 17:50:50,225 - framework - INFO - 灰蓝
+2018-03-06 17:50:50,232 - framework - INFO - selenium | 浏览器导航栏的三个按钮(back、forward、refr..._博客园
+2018-03-06 17:50:50,242 - framework - INFO - Python selenium 一定要会用selenium的... 来自t记得笑t - 微博
+2018-03-06 17:50:50,250 - framework - INFO - Python selenium ——用chrome的Mobile emulation模拟手机浏览器...
+2018-03-06 17:50:50,257 - framework - INFO - Cheat - 教程中心 - 阿里云
+2018-03-06 17:50:50,264 - framework - INFO - 灰蓝- CSDN博客
+2018-03-06 17:50:57,433 - framework - DEBUG - GET https://www.baidu.com/
+2018-03-06 17:50:57,433 - framework - DEBUG - 请求成功:<Response [200]>
+<!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus=autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn" autofocus></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=https://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');
+                </script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+2018-03-06 17:50:57,434 - framework - DEBUG - <!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus=autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn" autofocus></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=https://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');
+                </script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+2018-03-07 08:56:42,578 - framework - INFO - 灰蓝- CSDN博客
+2018-03-07 08:56:42,587 - framework - INFO - ...搭建一个既可以功能测试+又可以接口测试框架(灰蓝作..._CSDN博客
+2018-03-07 08:56:42,596 - framework - INFO - Python selenium —— 一定要会用selenium的等待,三种..._CSDN博客
+2018-03-07 08:56:42,606 - framework - INFO - ...—— 教你在Windows上搭建Python+Selenium环境 - 灰蓝 - 博客...
+2018-03-07 08:56:42,614 - framework - INFO - 灰蓝
+2018-03-07 08:56:42,621 - framework - INFO - selenium | 浏览器导航栏的三个按钮(back、forward、refr..._博客园
+2018-03-07 08:56:42,630 - framework - INFO - Python selenium 一定要会用selenium的... 来自t记得笑t - 微博
+2018-03-07 08:56:42,638 - framework - INFO - 灰蓝- CSDN博客
+2018-03-07 08:56:42,643 - framework - INFO - Cheat - 教程中心 - 阿里云
+2018-03-07 08:56:42,650 - framework - INFO - 灰蓝- CSDN博客
+2018-03-07 11:12:40,961 - framework - DEBUG - GET http://wthrcdn.etouch.cn/weather_mini?citykey=101010100
+2018-03-07 11:12:40,980 - framework - DEBUG - 请求成功:<Response [200]>
+{"data":{"yesterday":{"date":"6日星期二","high":"高温 6℃","fx":"东南风","low":"低温 -3℃","fl":"<![CDATA[3-4级]]>","type":"多云"},"city":"北京","aqi":"58","forecast":[{"date":"7日星期三","high":"高温 6℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"北风","type":"阴"},{"date":"8日星期四","high":"高温 8℃","fengli":"<![CDATA[<3级]]>","low":"低温 -4℃","fengxiang":"南风","type":"晴"},{"date":"9日星期五","high":"高温 10℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"西南风","type":"多云"},{"date":"10日星期六","high":"高温 12℃","fengli":"<![CDATA[<3级]]>","low":"低温 -2℃","fengxiang":"东南风","type":"晴"},{"date":"11日星期天","high":"高温 10℃","fengli":"<![CDATA[<3级]]>","low":"低温 -1℃","fengxiang":"东南风","type":"晴"}],"ganmao":"天气较凉，较易发生感冒，请适当增加衣服。体质较弱的朋友尤其应该注意防护。","wendu":"0"},"status":1000,"desc":"OK"}
+2018-03-07 11:16:39,362 - framework - ERROR - [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "C:\Users\zhuyonggang\PycharmProjects\python_learn\selenium_test\Test_framework\Test_framework\src\utils\client.py", line 68, in connect
+    self._sock.connect((self.domain,self.port))#给定参数必须是元组
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2018-03-07 11:21:10,450 - framework - ERROR - [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "C:\Users\zhuyonggang\PycharmProjects\python_learn\selenium_test\Test_framework\Test_framework\src\utils\client.py", line 68, in connect
+    self._sock.connect((self.domain,self.port))#给定参数必须是元组
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2018-03-07 14:42:11,020 - framework - ERROR - [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "C:\Users\zhuyonggang\PycharmProjects\python_learn\selenium_test\Test_framework\Test_framework\src\utils\client.py", line 68, in connect
+    self._sock.connect((self.domain,self.port))#给定参数必须是元组
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2018-03-07 14:42:12,026 - framework - ERROR - [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "C:\Users\zhuyonggang\PycharmProjects\python_learn\selenium_test\Test_framework\Test_framework\src\utils\client.py", line 68, in connect
+    self._sock.connect((self.domain,self.port))#给定参数必须是元组
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2018-03-07 14:42:13,032 - framework - ERROR - [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "C:\Users\zhuyonggang\PycharmProjects\python_learn\selenium_test\Test_framework\Test_framework\src\utils\client.py", line 68, in connect
+    self._sock.connect((self.domain,self.port))#给定参数必须是元组
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2018-03-07 15:08:09,750 - framework - INFO - 灰蓝- CSDN博客
+2018-03-07 15:08:09,763 - framework - INFO - ...搭建一个既可以功能测试+又可以接口测试框架(灰蓝作..._CSDN博客
+2018-03-07 15:08:09,778 - framework - INFO - ...—— 教你在Windows上搭建Python+Selenium环境 - 灰蓝 - 博客...
+2018-03-07 15:08:09,792 - framework - INFO - selenium之 时间日期控件的处理 - CSDN博客
+2018-03-07 15:08:09,804 - framework - INFO - 灰蓝
+2018-03-07 15:08:09,811 - framework - INFO - selenium驱动器配置详解 - 知乎专栏
+2018-03-07 15:08:09,818 - framework - INFO - selenium | 浏览器导航栏的三个按钮(back、forward、refr..._博客园
+2018-03-07 15:08:09,826 - framework - INFO - 学习Selenium同学必看,满满的都是干货 - 简书
+2018-03-07 15:08:09,837 - framework - INFO - Python selenium 一定要会用selenium的... 来自t记得笑t - 微博
+2018-03-07 15:08:09,843 - framework - INFO - Python selenium —— 父子、兄弟、相邻节点定位方式详解 - 简书
+2018-03-07 15:18:23,857 - framework - INFO - 灰蓝- CSDN博客
+2018-03-07 15:18:23,866 - framework - INFO - ...搭建一个既可以功能测试+又可以接口测试框架(灰蓝作..._CSDN博客
+2018-03-07 15:18:23,875 - framework - INFO - ...—— 教你在Windows上搭建Python+Selenium环境 - 灰蓝 - 博客...
+2018-03-07 15:18:23,884 - framework - INFO - selenium之 时间日期控件的处理 - CSDN博客
+2018-03-07 15:18:23,891 - framework - INFO - 灰蓝
+2018-03-07 15:18:23,898 - framework - INFO - selenium驱动器配置详解 - 知乎专栏
+2018-03-07 15:18:23,905 - framework - INFO - selenium | 浏览器导航栏的三个按钮(back、forward、refr..._博客园
+2018-03-07 15:18:23,913 - framework - INFO - 学习Selenium同学必看,满满的都是干货 - 简书
+2018-03-07 15:18:23,922 - framework - INFO - Python selenium 一定要会用selenium的... 来自t记得笑t - 微博
+2018-03-07 15:18:23,929 - framework - INFO - Python selenium —— 父子、兄弟、相邻节点定位方式详解 - 简书
