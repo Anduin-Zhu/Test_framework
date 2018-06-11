@@ -8,17 +8,20 @@ from utils.config import DRIVER_PATH,REPORT_PATH
 
 #可以根据需要自行扩展
 FIREFOX_PATH = os.path.join(DRIVER_PATH,'geckodriver')
+IEDRIVER_PATH = os.path.join(DRIVER_PATH,'IEDriverServer')
+CHROMEDRIVER_PATH = os.path.join(DRIVER_PATH,'chromedriver')
 
-TYPES = {'firefox':webdriver.Firefox,'ie':webdriver.Ie}
-EXECUTABLE_PATH = {'firefox':FIREFOX_PATH}
+TYPES = {'firefox':webdriver.Firefox,'ie':webdriver.Ie,'chrome':webdriver.Chrome}
+
+EXECUTABLE_PATH = {'firefox':FIREFOX_PATH,'ie':IEDRIVER_PATH,'chromme':CHROMEDRIVER_PATH}
 
 class UnSupportBrowserTypeError(Exception):
     pass
 
 class Browser(object):
     """可以根据传入的参数选择浏览器的driver打开对应浏览器，并且增加一个保存截图的方法，将截图保存到report目录下"""
-    def __init__(self,browser_type='firefox'):
-        self._type = browser_type.lower()
+    def __init__(self,browser_type=None):
+        self._type = browser_type.lower()#lower()方法：将大写字符转换成小写
         if self._type in TYPES:
             self.browser = TYPES[self._type]
         else:

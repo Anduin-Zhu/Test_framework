@@ -8,7 +8,7 @@ import jmespath
 
 class JMESPathExtractor(object):
     """
-    用JMESPath实现的抽取器，对于接送的是数据实现简单方式的抽取
+        用JMESPath实现的抽取器，对于接送的是数据实现简单方式的抽取
     """
     def extract(self,query=None,body=None):
         try:

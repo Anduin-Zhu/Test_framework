@@ -96,5 +96,6 @@ if __name__ == '__main__':#Alt + Shift +F10 以文件模式执行会出报告
               receiver='********@qq.com',
               path=report)"""
     e = Email(file_path=report)
-    e.send()
+    #e.send()
+
     #Email().sentreport()#这是第二种发送邮件方法

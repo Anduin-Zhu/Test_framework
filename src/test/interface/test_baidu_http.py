@@ -19,7 +19,7 @@ class TestBaiDuHttp(unittest.TestCase):
         res = self.client.send()
         logger.debug(res.text)
         #添加断言
-        assertHTTPCode(res,[400])
+        assertHTTPCode(res,[200])
         self.assertIn('百度一下，你就知道',res.text)
 
 if __name__ == '__main__':

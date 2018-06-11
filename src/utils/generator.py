@@ -46,7 +46,9 @@ def factory_generate_ids(starting_id=1,increment=1):
     return  genweate_started_ids()
 
 def factory_choice_grnerator(values):
-    """返回一个生成器函数，调用这个函数产生生成器,从给定的list中随机取一项"""
+    """
+        返回一个生成器函数，调用这个函数产生生成器,从给定的list中随机取一项
+    """
     def choice_generator():
         my_list = list(values)
         while True:

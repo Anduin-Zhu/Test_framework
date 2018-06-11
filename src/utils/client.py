@@ -1,8 +1,8 @@
 # -*- coding:utf-8 -*-
 __author__ = '朱永刚'
 """
-添加用于接口测试的client，对于HTTP接口添加HTTPClient，发送http请求。
-还可以封装TCPClient，用来进行tcp链接，测试socket接口。
+    添加用于接口测试的client，对于HTTP接口添加HTTPClient，发送http请求。
+    还可以封装TCPClient，用来进行tcp链接，测试socket接口。
 """
 
 import requests
@@ -13,7 +13,9 @@ from utils.log import logger
 METHODS = ['GET','POST','HEAD','TRACE','PUT','OPTIONS','CONNECT']
 
 class UnSupportMethodException(Exception):
-    """当传入的method的参数不是支持的类型时抛出异常"""
+    """
+        当传入的method的参数不是支持的类型时抛出异常
+    """
     pass
 
 class HTTPClient(object):
