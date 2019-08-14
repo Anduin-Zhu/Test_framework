@@ -13,7 +13,7 @@ CHROMEDRIVER_PATH = os.path.join(DRIVER_PATH,'chromedriver')
 
 TYPES = {'firefox':webdriver.Firefox,'ie':webdriver.Ie,'chrome':webdriver.Chrome}
 
-EXECUTABLE_PATH = {'firefox':FIREFOX_PATH,'ie':IEDRIVER_PATH,'chromme':CHROMEDRIVER_PATH}
+EXECUTABLE_PATH = {'firefox':FIREFOX_PATH,'ie':IEDRIVER_PATH,'chrome':CHROMEDRIVER_PATH}
 
 class UnSupportBrowserTypeError(Exception):
     pass

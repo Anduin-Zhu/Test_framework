@@ -180,3 +180,13 @@ ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无
 2018-06-07 20:07:59,055 - framework - INFO - 灰蓝- CSDN博客
 2018-06-07 20:07:59,344 - framework - INFO - attach file C:\Users\zhuyonggang\PycharmProjects\python_learn\selenium_test\Test_framework\Test_framework\report\\2018-06-07-20_07_47report.html
 2018-06-07 20:08:01,578 - framework - INFO - 发送邮件"百度测试报告"成功! 收件人：zhuyonggang.work@outlook.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2019-08-14 15:42:27,984 - framework - INFO - ...—— selenium与自动化测试成神之路 - 灰蓝 - CSDN博客...
+2019-08-14 15:42:27,995 - framework - INFO - 【灰蓝】只有想不通的人,没有走不通的路。 - CSDN博客
+2019-08-14 15:42:28,006 - framework - INFO - selenium 学习网站 - 灰蓝 - CSDN博客
+2019-08-14 15:42:28,016 - framework - INFO - Python Selenium自动化测试详解 - 灰蓝(只有想不通的人..._CSDN博客
+2019-08-14 15:42:28,027 - framework - INFO - selenium之 玩转鼠标键盘操作(ActionChains) - CSDN博客
+2019-08-14 15:42:28,037 - framework - INFO - selenium之 下拉选择框Select - 灰蓝 - CSDN博客
+2019-08-14 15:42:28,049 - framework - INFO - selenium之 时间日期控件的处理 - 灰蓝 - CSDN博客
+2019-08-14 15:42:28,059 - framework - INFO - selenium之 浏览器导航栏的三个按钮(back、forward、re..._CSDN博客
+2019-08-14 15:42:28,070 - framework - INFO - ...教你在Windows上搭建Python+Selenium环境 - 灰蓝 - CSDN博客...
+2019-08-14 15:42:28,081 - framework - INFO - Python selenium —— 动态id、class怎么定位 - 灰蓝 - CSDN博客

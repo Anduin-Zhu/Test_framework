@@ -27,7 +27,7 @@ class TestBaiDu(unittest.TestCase):
 
     def sub_setUp(self):
         #初始页面是main page，传入浏览器类型打开浏览器
-        self.page = BaiDuMainPage(browser_type='firefox').get(self.URL,maxmize_windows=False)
+        self.page = BaiDuMainPage(browser_type='chrome').get(self.URL,maxmize_windows=False)
 
         #self.driver = webdriver.Firefox(executable_path=os.path.join(DRIVER_PATH,'geckodriver.exe'))#用框架里的浏览器驱动
         #self.driver.get(self.URL)
